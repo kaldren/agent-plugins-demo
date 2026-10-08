@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "dotnet",
-  "version": "1.0.0",
-  "description": "Create focused, maintainable unit tests for .NET projects.",
+  "version": "1.1.0",
+  "description": "Create and run focused, maintainable unit tests for .NET projects.",
   "repository": "https://github.com/kaldren/agent-plugins-demo",
   "license": "MIT",
   "keywords": ["dotnet", "csharp", "unit-tests"]
