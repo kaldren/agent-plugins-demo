@@ -4,7 +4,7 @@ Two independently versioned [Agent Plugins](https://agent-plugins.org/) packages
 
 | Plugin | Version | Skills |
 | --- | --- | --- |
-| [dotnet](dotnet/) | 1.2.0 | `create-unit-tests`, `run-unit-tests` |
+| [dotnet](dotnet/) | 1.3.0 | `create-unit-tests`, `run-unit-tests`, `review-unit-tests` |
 | [python](python/) | 1.0.0 | `test-fastapi` |
 
 ## Install in VS Code
@@ -45,6 +45,8 @@ In a .NET project:
 
 > Use run-unit-tests to run the unit tests and summarize failures.
 
+> Use review-unit-tests to review OrderService tests for missed regressions and reliability issues.
+
 In a Python FastAPI project:
 
 > Use test-fastapi to test the items endpoint, including successful requests and invalid payloads.
@@ -68,6 +70,7 @@ dotnet/
   skills/
     create-unit-tests/SKILL.md
     run-unit-tests/SKILL.md
+    review-unit-tests/SKILL.md
 python/
   plugin.json
   LICENSE

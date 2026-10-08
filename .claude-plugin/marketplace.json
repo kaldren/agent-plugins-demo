@@ -7,8 +7,8 @@
     {
       "name": "dotnet",
       "source": "./dotnet",
-      "version": "1.2.0",
-      "description": "Create and run focused, maintainable unit tests for .NET projects."
+      "version": "1.3.0",
+      "description": "Create, run, and review focused, maintainable unit tests for .NET projects."
     },
     {
       "name": "python",
