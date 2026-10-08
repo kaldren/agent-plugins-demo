@@ -1,0 +1,20 @@
+{
+  "name": "agent-plugins-demo",
+  "owner": {
+    "name": "kaldren"
+  },
+  "plugins": [
+    {
+      "name": "dotnet",
+      "source": "./dotnet",
+      "version": "1.2.0",
+      "description": "Create and run focused, maintainable unit tests for .NET projects."
+    },
+    {
+      "name": "python",
+      "source": "./python",
+      "version": "1.0.0",
+      "description": "Create focused tests for Python FastAPI applications."
+    }
+  ]
+}

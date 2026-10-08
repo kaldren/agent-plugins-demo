@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "python",
+  "version": "1.0.0",
+  "description": "Create focused tests for Python FastAPI applications.",
+  "repository": "https://github.com/kaldren/agent-plugins-demo",
+  "license": "MIT",
+  "keywords": ["python", "fastapi", "pytest", "testing"]
+}
